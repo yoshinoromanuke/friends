@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST') //$_SERVER['REQUEST_METHOD']===POST こ
 <html>
 <head>
 	<meta http-equiv="Content-Type"content="text/html;charset=UTF-8"> 
-	<title>都道府県友達リスト</title>
+	<title>yoshinoromanuke の都道府県友達リスト</title>
 </head>
 <body>
 <?php
