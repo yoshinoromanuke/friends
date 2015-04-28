@@ -20,7 +20,7 @@ if (isset($_GET['del_flag']))
 }
 //都道府県名の取得
 $sql = 'SELECT `name` FROM `areas` WHERE `id` = '.$area_id.";";
-var_dump($sql);
+//var_dump($sql);
 //echo $sql;
 $stmt = $dbh->prepare($sql);
 $stmt->execute();
